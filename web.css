@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-image: url("picture-web/grass-block.png");
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container1 {
+    background-color: #ffffffa1;
+    border: 3px solid rgb(0, 0, 0);
+    color: darkblue;
+    border-radius: 5px 5px 5px ;
+    width: 90%;
+    margin: auto; 
+    overflow: hidden;
+    text-align: center;
+    bottom: 0px;
+}
+
+header {
+    background: #000000cc;
+    width: 50%;
+    border: 3px solid black;
+    border-radius: 50px 50px 50px 50px;
+    color: #ffffff;
+    padding: 1rem 0;
+    margin: auto;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    border: 3px solid black;
+    border-radius: 15px 15px 15px 15px;
+    background: #000000cc;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer {
+    border: 3px solid black;
+    border-radius: 15px 15px 15px 15px;
+    background: #000000cc;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 0rem;
+}
+/*---------------------------------------------*/
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    nav a {
+        font-size: 1.4em;
+    }
+
+    .showcase h2 {
+        font-size: 3em;
+    }
+
+    .showcase p {
+        font-size: 1.4em;
+    }
+}
+
+@media (min-width: 900px) {
+    body {
+        font-size: 20px;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav a {
+        font-size: 1.6em;
+    }
+
+    .showcase h2 {
+        font-size: 3.5em;
+    }
+
+    .showcase p {
+        font-size: 1.6em;
+    }
+}
