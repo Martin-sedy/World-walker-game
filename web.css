@@ -19,7 +19,7 @@ body {
       text-align: center;
       padding: 80px 20px 60px;
       background: linear-gradient(180deg, #111 0%, #000 100%);
-      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      box-shadow: 0 4px 10px rgba(128, 38, 38, 0.5);
     }
 
     header h1 {
