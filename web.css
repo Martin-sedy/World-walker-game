@@ -130,3 +130,25 @@ body {
     section {
       animation: fadeIn 1s ease both;
     }
+
+      .social-item {
+    display: flex;
+    align-items: center; 
+    gap: 8px;            
+    }
+
+    .icon {
+    width: 24px;         
+    height: auto;
+    }
+
+    .social-item2 {
+    display: flex;
+    align-items: center; 
+    gap: 8px;            
+    }
+
+    .icon2 {
+    width: 24px;         
+    height: auto;
+    }
